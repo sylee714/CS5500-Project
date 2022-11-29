@@ -1,0 +1,57 @@
+* {
+    text-align: center;
+    margin: 3px;
+    font-family: "Lucia Console";
+}
+
+input {
+    width: 200px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+button {
+    border: 1px solid #555555;
+    padding: 2px;
+}
+
+button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+th {
+    border: 1px solid;
+    padding: 7px;
+    background-color: #bdb8b8;
+}
+
+td {
+    border: 1px solid;
+    padding: 7px;
+}
+
+.displayFieldH {
+    display: inline;
+    text-align: left;
+    width: 120px;
+}
+
+.displayFieldP {
+    display: inline;
+}
+
+.infoContainer {
+    display: flex;
+}
